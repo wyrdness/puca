@@ -1,10 +1,8 @@
 {
-  "category": "FAE_FOLKLORE",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/puca",
     "maintainers": [
       {
@@ -18,359 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "puca",
     "name": "Púca",
-    "aliases": [
-      {
-        "name": "Pooka",
-        "language": "English",
-        "region": "Ireland"
-      },
-      {
-        "name": "Phouka",
-        "language": "English variant",
-        "region": "Ireland"
-      },
-      {
-        "name": "Pwca",
-        "language": "Welsh",
-        "region": "Wales"
-      },
-      {
-        "name": "Puck",
-        "language": "English",
-        "region": "England",
-        "meaning": "Related folkloric figure"
-      }
-    ],
+    "aliases": [],
     "category": "FAE_FOLKLORE",
-    "subcategory": "Shapeshifter",
+    "subcategory": "Fairy/Fae",
     "tags": [
-      "irish",
-      "fae",
-      "fairy",
-      "shapeshifter",
-      "trickster",
-      "horse",
-      "celtic",
-      "folklore"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Irish shapeshifting fairy creature, most commonly appearing as a black horse, known for taking humans on wild rides and acting as a trickster with ambiguous morality.",
+      "summary": "The Púca is a shapeshifting creature from Irish folklore, considered one of the most feared and respected of the fairy folk.",
       "full": "The Púca is a shapeshifting creature from Irish folklore, considered one of the most feared and respected of the fairy folk. While it can take many forms - including goat, rabbit, dog, goblin, or human - it most commonly appears as a sleek black horse with glowing eyes. The Púca is known for offering rides to unsuspecting travelers, then taking them on a wild, terrifying gallop before throwing them into mud or water (usually harmlessly). Despite its trickster nature, the Púca can be helpful to those who treat it with respect, and it holds special significance in harvest traditions. After November 1 (Samhain), any crops left in the field are considered to belong to the Púca. The creature can speak human language in any form and possesses an ambiguous morality - neither fully good nor evil, but demanding respect and proper behavior from humans."
     },
     "etymology": {
-      "origin": "Irish 'púca' or Old Irish 'púca', possibly from Old Norse 'puki' (nature spirit)",
-      "meaning": "The exact meaning is uncertain; may relate to 'poke' or 'sprite'",
-      "first_use": "Irish oral tradition, medieval Irish literature"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "FAE_FOLKLORE",
-      "type": "Shapeshifter",
-      "subtype": "Fairy/Fae",
-      "variant": "Irish/Celtic"
+      "type": "Fairy/Fae",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "selkie",
-        "name": "Selkie",
-        "relationship": "related_shapeshifter",
-        "description": "Celtic seal-shapeshifter, different mythology but similar shapeshifting tradition"
-      },
-      {
-        "id": "kelpie",
-        "name": "Kelpie",
-        "relationship": "similar",
-        "description": "Scottish water horse, more dangerous than Púca"
-      },
-      {
-        "id": "each-uisge",
-        "name": "Each-uisge",
-        "relationship": "similar",
-        "description": "Scottish water horse, deadly variant"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "forms": [
-        {
-          "form": "Black horse",
-          "description": "Most common form - sleek, black, with glowing eyes",
-          "frequency": "most_common"
-        },
-        {
-          "form": "Goat",
-          "description": "Large black goat with curling horns",
-          "frequency": "common"
-        },
-        {
-          "form": "Rabbit",
-          "description": "Large black rabbit",
-          "frequency": "occasional"
-        },
-        {
-          "form": "Dog",
-          "description": "Large black dog",
-          "frequency": "occasional"
-        },
-        {
-          "form": "Goblin",
-          "description": "Small, mischievous humanoid",
-          "frequency": "occasional"
-        },
-        {
-          "form": "Human",
-          "description": "Can appear as human, often with tell-tale features",
-          "frequency": "rare"
-        }
-      ],
-      "features": [
-        {
-          "feature": "Glowing eyes",
-          "description": "Eyes that glow, especially in horse form",
-          "frequency": "common"
-        },
-        {
-          "feature": "Black coloration",
-          "description": "Usually appears as black in animal forms",
-          "frequency": "very_common"
-        },
-        {
-          "feature": "Sleek appearance",
-          "description": "Well-groomed, attractive appearance in horse form",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Shapeshifter capable of taking multiple animal and humanoid forms at will"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shapeshifting",
-        "description": "Can transform into various animals and human form",
-        "frequency": "always",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Human speech",
-        "description": "Can speak human language in any form",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Wild rides",
-        "description": "Takes riders on terrifying gallops across countryside",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Prophetic knowledge",
-        "description": "Sometimes shares warnings or prophecies",
-        "frequency": "rare",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Supernatural speed",
-        "description": "Incredibly fast in horse form",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "disposition": "ambiguous",
-      "moral_alignment": "Trickster - can be helpful or harmful depending on treatment",
-      "temperament": [
-        "Mischievous and enjoys confusing humans",
-        "Respects those who respect it",
-        "Punishes rudeness and disrespect",
-        "Generally does not cause serious harm",
-        "Can be helpful if approached properly"
-      ],
-      "patterns": [
-        "Offers rides, then gallops wildly",
-        "Throws riders into mud or water (mostly harmless)",
-        "Speaks warnings or prophecies occasionally",
-        "Claims harvest leftovers after Samhain",
-        "Tests human character through tricks"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Throughout Ireland, with regional variations; related creatures in Wales (Pwca) and broader Celtic regions",
-      "continents": ["Europe"],
-      "countries": ["Ireland", "Wales", "Scotland"],
-      "regions": [
-        "All regions of Ireland",
-        "Welsh countryside",
-        "Celtic cultural areas"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Medieval period",
+        "date": "Unknown",
         "circa": true,
-        "source": "Irish oral tradition, medieval literature"
-      },
-      "cultural_significance": "Active in Irish folklore and cultural identity; harvest traditions continue in some areas"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient Irish fairy tradition, possibly influenced by Norse settlement (puki spirits). Part of broader Celtic shapeshifter mythology.",
-      "earliest_accounts": "Medieval Irish literature; oral tradition likely much older",
-      "folklore_connections": "Connected to harvest festivals, Samhain traditions, and broader fairy lore"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Pre-Christian era",
-        "event": "Origins in Celtic tradition",
-        "significance": "Púca likely has pre-Christian origins in Irish paganism",
-        "source": "Oral tradition"
-      },
-      {
-        "date": "Medieval period",
-        "event": "Written records emerge",
-        "significance": "Púca appears in medieval Irish texts and literature",
-        "source": "Irish manuscripts"
-      },
-      {
-        "date": "19th century",
-        "event": "Folklore collection",
-        "significance": "Irish folklorists record extensive Púca traditions",
-        "source": "Folklore collections"
-      },
-      {
-        "date": "1944",
-        "event": "Harvey (play)",
-        "significance": "Inspired by Púca tradition - invisible friend as helpful spirit",
-        "source": "Mary Chase's play"
-      },
-      {
-        "date": "1950",
-        "event": "Harvey (film)",
-        "significance": "Film adaptation brings Púca concept to wider audience",
-        "source": "Popular culture"
-      }
-    ],
-    "modern_era": "Púca remains part of active Irish folklore and cultural identity, appearing in literature, tourism, and local traditions."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "November 1 harvest tradition - crops left belong to Púca",
-        "Samhain connections",
-        "Regional Púca stories throughout Ireland",
-        "Púca as guardian of wild places"
-      ],
-      "stories": [
-        "Púca and the farmer's wild ride",
-        "The talking Púca who warned of danger",
-        "Púca claiming harvest leftovers",
-        "Púca helping respectful travelers"
-      ],
-      "beliefs": "Part of living Irish tradition; represents wild nature, need to respect boundaries, and wisdom found in trickery"
-    },
-    "irish_tradition": {
-      "significance": "Important figure in Irish fairy lore and cultural identity",
-      "sensitivity_note": "Represents authentic Irish cultural tradition; not a children's fantasy but part of cultural heritage",
-      "harvest_customs": "November 1 tradition of leaving crops for the Púca continues in some rural areas",
-      "respect_guidelines": "Approach as serious cultural tradition, not mere superstition"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Referenced in various Irish poetry and literature",
-        "Modern fantasy incorporating Púca"
-      ],
-      "film_tv": [
-        "Harvey (1950) - inspired by Púca concept",
-        "Various fantasy films incorporating púca/pooka"
-      ],
-      "other": [
-        "Local festivals in Ireland",
-        "Tourist sites featuring Púca stories",
-        "Irish cultural education"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "encounters": {
-    "guidelines": [
-      "Show respect if encountered",
-      "Do not mount a black horse appearing at night",
-      "If taken on a ride, hold on and do not panic",
-      "Speak politely and respectfully",
-      "Leave offerings at harvest time (traditional)",
-      "Do not insult or show rudeness"
-    ],
-    "warnings": [
-      "Will take you on wild, frightening ride",
-      "Usually throws rider into mud/water",
-      "Rarely causes serious physical harm",
-      "May punish those who show disrespect",
-      "Tests human character"
-    ],
-    "traditional_protections": [
-      "Respectful behavior",
-      "Avoiding strange horses at night",
-      "Proper harvest offerings",
-      "Speaking politely"
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "theories": {
-    "folkloric": [
-      {
-        "name": "Nature spirit tradition",
-        "description": "Púca represents wild nature and its untamed power",
-        "evidence_cited": ["Association with wild places", "Shapeshifting represents nature's changeability"]
-      },
-      {
-        "name": "Harvest guardian",
-        "description": "Agricultural spirit ensuring proper harvest customs",
-        "evidence_cited": ["November 1 tradition", "Claims leftover crops"]
-      }
-    ],
-    "cultural": [
-      {
-        "name": "Moral teaching",
-        "description": "Púca stories teach respect for nature and proper behavior",
-        "evidence_cited": ["Punishes rudeness", "Rewards respect", "Trickster wisdom"]
-      },
-      {
-        "name": "Norse influence",
-        "description": "May derive partly from Norse 'puki' nature spirits",
-        "evidence_cited": ["Linguistic similarity", "Norse settlement in Ireland"]
-      }
-    ]
-  },
-
-  "sources": [
-    {
-      "id": "yeats-fairy",
-      "type": "book",
-      "title": "Fairy and Folk Tales of the Irish Peasantry",
-      "authors": ["W.B. Yeats"],
-      "date": "1888"
-    },
-    {
-      "id": "briggs-fairies",
-      "type": "book",
-      "title": "A Dictionary of Fairies",
-      "authors": ["Katharine Briggs"],
-      "publication": "Penguin Books",
-      "date": "1976",
-      "isbn": "978-0140046946"
-    }
-  ]
+  "sources": []
 }
