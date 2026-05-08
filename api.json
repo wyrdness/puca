@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/puca",
     "maintainers": [
       {
@@ -16,111 +16,315 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "puca",
     "name": "Púca",
-    "aliases": [],
+    "aliases": [
+      { "name": "Pooka", "language": "English (Hiberno-English)", "region": "Ireland" },
+      { "name": "Phouka", "language": "English / older spelling", "region": "Ireland" },
+      { "name": "Púka", "language": "Old Irish" },
+      { "name": "Pwca", "language": "Welsh", "region": "Wales" },
+      { "name": "Bucca", "language": "Cornish", "region": "Cornwall" },
+      { "name": "Bocan / Bòcan", "language": "Scottish Gaelic", "region": "Scotland" },
+      { "name": "Puck", "language": "English", "meaning": "Cognate appearing in English folklore (e.g. Robin Goodfellow / Puck in Shakespeare)" }
+    ],
     "category": "FAE_FOLKLORE",
-    "subcategory": "Fairy/Fae",
+    "subcategory": "Shapeshifting fairy / hobgoblin",
     "tags": [
-      "folklore",
-      "mythology"
+      "fae",
+      "celtic",
+      "irish",
+      "welsh",
+      "cornish",
+      "shapeshifter",
+      "horse-form",
+      "samhain",
+      "trickster"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Púca is a shapeshifting creature from Irish folklore, considered one of the most feared and respected of the fairy folk.",
-      "full": "The Púca is a shapeshifting creature from Irish folklore, considered one of the most feared and respected of the fairy folk. While it can take many forms - including goat, rabbit, dog, goblin, or human - it most commonly appears as a sleek black horse with glowing eyes. The Púca is known for offering rides to unsuspecting travelers, then taking them on a wild, terrifying gallop before throwing them into mud or water (usually harmlessly). Despite its trickster nature, the Púca can be helpful to those who treat it with respect, and it holds special significance in harvest traditions. After November 1 (Samhain), any crops left in the field are considered to belong to the Púca. The creature can speak human language in any form and possesses an ambiguous morality - neither fully good nor evil, but demanding respect and proper behavior from humans."
+      "summary": "The Púca is a shapeshifting fairy creature of Irish, Welsh, Cornish, Manx, and Scottish Gaelic folklore — most famously a black horse with luminous golden eyes. Its character is ambiguous: it can be a dangerous trickster or a beneficent helper, and is closely associated with Samhain (1 November).",
+      "full": "The Púca (Irish, often anglicised as Pooka or Phouka; Welsh Pwca; Cornish Bucca; Manx Phynnodderee in some treatments; Scottish Gaelic Bòcan) is a Celtic spirit and one of the most prominent figures of Irish fairy belief. It is fundamentally a shapeshifter, taking the form of a black horse, goat, hare, dog, bull, eagle, or human (sometimes with animal ears or a tail) and appearing on remote roads at night. The horse-form Púca is the most famous: a black or dark-coated stallion with glowing golden eyes that may invite or seize a human rider for a wild, terrifying ride before depositing them, often unhurt, in the morning. The Púca's moral character is famously ambiguous — it is mischievous, occasionally malicious, but can also speak in a human voice, give cryptic advice, and even perform helpful labour for those who treat it well. It is associated above all with Samhain (1 November / Lá na Púca), the date after which any wild fruit not yet harvested is said to belong to the Púca and may not be eaten by humans. Iron and references to the saints are traditional defenses. Cognate figures include the Welsh Pwca, the Cornish Bucca, and Shakespeare's Puck (Robin Goodfellow), all sharing the same Common Brittonic / Old English etymological root."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Old Irish púca, cognate with Welsh pwca, Cornish bucca, Old English pūca; further cognates appear in Old Norse púki ('devil, imp') and Middle English pouke",
+      "meaning": "Glossed in Irish lexicons as 'spirit, ghost, hobgoblin, goblin'; the cluster of cognates carries the sense 'mischievous spirit'",
+      "first_use": "Old Irish attestations in early medieval Irish texts; English 'pooka' / 'phouka' from at least the 17th century"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "FAE_FOLKLORE",
-      "type": "Fairy/Fae",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Fairy / hobgoblin",
+      "subtype": "Shapeshifter; often horse-form",
+      "variant": "Celtic (Irish, Welsh, Cornish, Manx, Scottish Gaelic)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "puck", "name": "Puck (Robin Goodfellow)", "relationship": "counterpart", "description": "English cognate from the same etymological family, prominent in Shakespeare's A Midsummer Night's Dream" },
+      { "id": "kelpie", "name": "Kelpie", "relationship": "similar", "description": "Scottish water-horse fairy that lures victims onto its back" },
+      { "id": "each-uisge", "name": "Each-uisge", "relationship": "similar", "description": "Highland Scottish water-horse with similarly dangerous behaviour" },
+      { "id": "phynnodderee", "name": "Fynoderee / Phynnodderee", "relationship": "similar", "description": "Manx hobgoblin with overlapping helper / trickster roles" },
+      { "id": "bogeyman", "name": "Bogey / bogeyman", "relationship": "related", "description": "English-language cognate complex with similar etymology" },
+      { "id": "leprechaun", "name": "Leprechaun", "relationship": "related", "description": "Distinct Irish fairy figure within the same Celtic fairy folklore" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["black", "dark brown", "white (rare)"],
+      "features": [
+        { "feature": "Shapeshifting", "description": "Takes a variety of forms — black horse, goat, hare, dog, bull, eagle, or human (often with animal ears or tail)", "frequency": "always" },
+        { "feature": "Luminous golden eyes", "description": "Particularly the horse-form Púca is described with glowing golden or fiery eyes", "frequency": "common" },
+        { "feature": "Long flowing mane", "description": "Horse-form Púca has a long, often unkempt mane", "frequency": "common" },
+        { "feature": "Power of speech", "description": "Can speak in a human voice, giving advice, warnings, or prophecy", "frequency": "common" }
+      ],
+      "morphology": "Inherently protean. Most accounts agree on a base of a large dark animal — most often a horse — with uncanny features (glowing eyes, exceptional size, eloquent speech)."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Changes form at will between several animal and human shapes", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Wild ride", "description": "Lures or seizes a person onto its back as a horse and gallops over impassable terrain before releasing them", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Speech and prophecy", "description": "Speaks intelligibly to humans and is sometimes consulted for cryptic advice", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Helpful labour", "description": "In some Munster traditions, will perform farm labour at night for households that treat it respectfully", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Spoiling of wild fruit", "description": "After Samhain, the Púca is said to spoil or spit on uncollected blackberries and fruit so that humans may not eat them", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["mountain peaks", "remote roads", "rural countryside", "old ruins", "wells and springs", "headlands and coastal cliffs"],
+      "diet": "Said to spoil and consume wild fruit after Samhain; otherwise not specified",
+      "patterns": [
+        "Most active around Samhain (Lá na Púca, 1 November)",
+        "Encounters typically at night on lonely roads",
+        "Either tricks or aids individual humans depending on their conduct",
+        "Repelled by iron and by appeals to the saints"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The Púca and its direct cognates are found across the Celtic fringe of the British Isles and Ireland, with the strongest tradition in Ireland (especially Munster, Leinster, and parts of Connacht), and counterparts in Wales (Pwca), Cornwall (Bucca), and the Scottish Highlands (Bòcan).",
+      "continents": ["Europe"],
+      "countries": ["Ireland", "United Kingdom"],
+      "regions": ["Ireland", "Wales", "Cornwall", "Isle of Man", "Scottish Highlands"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Binevenagh / Mountain peaks of County Down and Wicklow",
+        "location": {
+          "description": "Various mountain peaks in Ireland associated with the Púca's haunts",
+          "country": "Ireland",
+          "region": "Ulster / Leinster",
+          "coordinates": { "latitude": 53.0, "longitude": -7.0 }
+        },
+        "peak_period": "Folkloric (centuries)",
+        "notes": "Generic upland sites associated with the horse-form Púca in Irish tradition."
+      },
+      {
+        "name": "Pwca's Glen / Cwm Pwca",
+        "location": {
+          "description": "Glen near Crickhowell associated with the Welsh Pwca",
+          "country": "United Kingdom",
+          "region": "Powys, Wales",
+          "coordinates": { "latitude": 51.857, "longitude": -3.137 }
+        },
+        "peak_period": "Folkloric",
+        "notes": "Locality famously linked to the Welsh Pwca and to the painter T. J. Llewelyn Prichard's accounts."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Early medieval Ireland",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Old Irish lexicographic and literary attestations of púca"
+      },
+      "peak_activity_periods": [
+        { "period": "Early medieval to early modern", "description": "Heyday of Púca tradition in Irish oral and manuscript culture" },
+        { "period": "19th century", "description": "Folklore-collection era: Crofton Croker, Lady Wilde, Yeats" },
+        { "period": "20th century", "description": "Irish Folklore Commission (founded 1935) systematic collections" }
+      ],
+      "seasonal_patterns": "Most active around Samhain (1 November); the night of 31 October to 1 November is associated with the Púca's wild rides and the spoiling of wild fruit."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Rooted in pre-Christian Celtic supernatural belief and the broader Indo-European 'mischievous spirit' / hobgoblin complex, surviving into Christian-era Irish, Welsh, Cornish, and Scottish folklore.",
+      "earliest_accounts": "Attested in Old Irish texts and lexicons as a generic term for hobgoblins and ghosts; the proper-name fairy figure crystallises in early modern Irish oral tradition.",
+      "folklore_connections": "Cognate figures appear in English (Puck, Robin Goodfellow), Welsh (Pwca), Cornish (Bucca), Scottish Gaelic (Bòcan), and Old Norse (púki). The horse-form Púca is closely related to but distinct from the Scottish kelpie and each-uisge."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1825", "event": "Thomas Crofton Croker publishes Fairy Legends and Traditions of the South of Ireland", "significance": "Major early systematic collection including Púca tales", "source": "Croker, T. C. (1825)" },
+      { "date": "1888", "event": "W. B. Yeats publishes Fairy and Folk Tales of the Irish Peasantry, including a section on the Pooka", "significance": "Definitive Anglo-Irish anthology of fairy belief", "source": "Yeats, W. B. (1888)" },
+      { "date": "1888", "event": "Lady Jane Wilde publishes Ancient Legends, Mystic Charms, and Superstitions of Ireland, including Púca material", "significance": "Important 19th-century folklore collection", "source": "Wilde, L. (1888)" },
+      { "date": "1935", "event": "Irish Folklore Commission (Coimisiún Béaloideasa Éireann) founded", "significance": "Initiates the systematic state-supported collection of Irish folklore, including Púca traditions", "source": "Wikipedia: Irish Folklore Commission" }
+    ],
+    "modern_era": "Púca traditions remain widely known in Ireland and the wider Celtic diaspora. Samhain customs, including the prohibition on picking blackberries after 1 November, continue to be cited in folkloric and popular sources. Literary and screen treatments have kept the figure prominent: Mary Chase's 1944 play Harvey, the 1950 James Stewart film of the same name, and recent animated and television adaptations such as Hilda all draw on the Púca/Pooka tradition."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
-      "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "date_range": { "earliest": "Early medieval Ireland", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "puca-tradition-samhain-blackberries",
+        "name": "Samhain blackberry tradition (Lá na Púca)",
+        "date": { "value": "1888-11-01", "precision": "approximate" },
+        "location": {
+          "description": "Ireland (general)",
+          "country": "Ireland",
+          "region": "Ireland",
+          "coordinates": { "latitude": 53.4129, "longitude": -8.2439, "precision": "region" }
+        },
+        "witnesses": { "types": ["Folklore informants collected by Yeats and Lady Wilde"], "credibility_factors": ["Multiple independent collectors across Ireland"] },
+        "description": "Across Ireland, after 1 November (Lá na Púca / Samhain), wild blackberries and other fruit are traditionally said to belong to the Púca, who has spat on or otherwise spoiled them, and may not be eaten. The tradition is widely attested in 19th- and 20th-century folklore collections.",
+        "credibility": { "rating": "high", "factors": ["Cross-region attestation in folklore collections"], "notes": "Treated as living folklore rather than a paranormal sighting." },
+        "sources": ["Yeats, W. B. (1888), Fairy and Folk Tales of the Irish Peasantry", "Wilde, L. (1888), Ancient Legends, Mystic Charms, and Superstitions of Ireland"],
+        "featured": true
+      },
+      {
+        "id": "puca-tradition-pwca-glen",
+        "name": "Pwca of Cwm Pwca (Welsh tradition)",
+        "date": { "value": "1828-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Cwm Pwca near Crickhowell, Wales",
+          "country": "United Kingdom",
+          "region": "Powys, Wales",
+          "coordinates": { "latitude": 51.857, "longitude": -3.137, "precision": "approximate" }
+        },
+        "witnesses": { "types": ["Welsh folklore informants"], "credibility_factors": ["Recorded by 19th-century antiquarians"] },
+        "description": "Nineteenth-century Welsh antiquarian sources record the Pwca of Cwm Pwca, a glen near Crickhowell, as the local hobgoblin who would lead travellers astray with a will-o'-the-wisp light before vanishing with mocking laughter.",
+        "credibility": { "rating": "medium", "factors": ["Recorded multiple times in 19th-century Welsh folklore", "Documented as folk tradition"], "notes": "Folklore tradition rather than evidentiary sighting." },
+        "sources": ["Sikes, W. (1880), British Goblins"],
+        "featured": false
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "puca-evidence-yeats-1888",
+        "type": "folklore collection",
+        "name": "Fairy and Folk Tales of the Irish Peasantry (Yeats)",
+        "date": "1888",
+        "description": "Anthology with a substantial Pooka section drawn from earlier collectors and Yeats's own informants.",
+        "status": "verified",
+        "analysis": "A canonical Anglo-Irish folklore source for Púca traditions.",
+        "source": "Yeats, W. B. (1888)"
+      },
+      {
+        "id": "puca-evidence-croker-1825",
+        "type": "folklore collection",
+        "name": "Fairy Legends and Traditions of the South of Ireland (Croker)",
+        "date": "1825",
+        "description": "Important early-19th-century collection of Munster fairy tales including Púca material.",
+        "status": "verified",
+        "analysis": "Influential early systematic collection.",
+        "source": "Croker, T. C. (1825)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Living Celtic fairy",
+        "description": "Within the tradition itself, the Púca is treated as a real, intentional fairy being whose presence demands ritual respect, especially at Samhain.",
+        "proponents": ["Irish folkloric tradition", "Modern revivalist Pagan and Druidic communities"],
+        "evidence_cited": ["Long oral tradition", "Continuity of customs around Samhain"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Folkloric and literary tradition",
+        "description": "Folklorists treat the Púca as a culturally specific personification of liminal danger and harvest-end risk rather than a literal entity.",
+        "proponents": ["Academic folklorists"],
+        "evidence_cited": ["Cross-cultural patterning of trickster spirits", "Functional fit with Samhain seasonal transitions"]
+      },
+      {
+        "name": "Misidentification of nocturnal animals",
+        "description": "Some sceptical commentators have suggested that horse-form Púca encounters reflect misidentified loose horses, deer, or shadows on rural roads at night.",
+        "proponents": ["Various sceptical popular writers"],
+        "evidence_cited": ["Common Irish nocturnal megafauna and visibility conditions"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Lá na Púca / Samhain (1 November) and the prohibition on picking wild fruit thereafter",
+        "Tales of the wild ride on the horse-form Púca",
+        "Welsh Pwca and Cornish Bucca traditions",
+        "Use of iron and saintly invocations as protection"
+      ],
+      "stories": [
+        "'Daniel O'Rourke' and the Pooka (Croker)",
+        "Tales collected in Yeats's 'The Pooka' chapter",
+        "The Pwca of Cwm Pwca (Sikes, 1880)"
+      ],
+      "beliefs": "Within Irish tradition, the Púca is at once a danger and a source of cryptic guidance; respectful behaviour towards it is rewarded, disrespect punished."
+    },
+    "indigenous": {
+      "cultures": ["Irish (Gaelic) tradition", "Welsh tradition", "Cornish tradition", "Manx tradition", "Scottish Gaelic tradition"],
+      "significance": "Among the most widely recognised figures of Celtic fairy belief, integral to harvest customs and Samhain.",
+      "sensitivity_note": "Care should be taken to distinguish living Irish-language traditions from Anglophone literary appropriations such as Shakespeare's Puck.",
+      "respect_guidelines": "Cite Irish-language sources and the Schools' Collection of the Irish Folklore Commission where possible; avoid conflating distinct cognate figures."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "A Midsummer Night's Dream — William Shakespeare (Puck / Robin Goodfellow, c.1595)",
+        "Harvey — Mary Chase (play, 1944)",
+        "Fairy and Folk Tales of the Irish Peasantry — W. B. Yeats (1888)",
+        "Ancient Legends, Mystic Charms, and Superstitions of Ireland — Lady Jane Wilde (1888)",
+        "Fairy Legends and Traditions of the South of Ireland — Thomas Crofton Croker (1825)",
+        "British Goblins — Wirt Sikes (1880)"
+      ],
+      "film_tv": [
+        "Harvey (1950, dir. Henry Koster, with James Stewart)",
+        "Hilda (Netflix animated series, 2018–) features a Púca / nisse-style character tradition",
+        "Various Irish-set fantasy and horror productions"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Modern Pagan and Druidic Samhain practice",
+        "Halloween customs related to Lá na Púca"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "W. B. Yeats", "affiliation": "Independent folklorist / poet", "contribution": "Anthology and interpretation of Irish fairy tradition including the Pooka", "period": "1880s–1930s" },
+      { "name": "Thomas Crofton Croker", "affiliation": "Royal Society of Antiquaries of Ireland", "contribution": "Early systematic collection of Munster fairy tales", "period": "1820s–1830s" },
+      { "name": "Lady Jane Wilde", "affiliation": "Independent folklorist", "contribution": "1888 anthology of Irish folklore including Púca material", "period": "1880s" }
+    ],
+    "organizations": [
+      { "name": "Dúchas / Irish Folklore Commission", "url": "https://www.duchas.ie", "focus": "Digitised access to the Schools' Collection and other Irish Folklore Commission archives" },
+      { "name": "National Folklore Collection, UCD", "url": "https://www.ucd.ie/folklore/", "focus": "Successor institution to the Irish Folklore Commission, holding extensive Púca material" }
+    ],
+    "ongoing_studies": "Continuing folkloric research at University College Dublin and through Dúchas; literary studies of cognate figures across Celtic language traditions."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-puca", "type": "website", "title": "Púca", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/P%C3%BAca", "accessed": "2026-05-07" },
+    { "id": "yeats-1888", "type": "book", "title": "Fairy and Folk Tales of the Irish Peasantry", "authors": ["W. B. Yeats"], "publication": "Walter Scott Publishing", "date": "1888" },
+    { "id": "croker-1825", "type": "book", "title": "Fairy Legends and Traditions of the South of Ireland", "authors": ["Thomas Crofton Croker"], "publication": "John Murray", "date": "1825" },
+    { "id": "wilde-1888", "type": "book", "title": "Ancient Legends, Mystic Charms, and Superstitions of Ireland", "authors": ["Lady Jane Wilde"], "publication": "Ward and Downey", "date": "1888" },
+    { "id": "sikes-1880", "type": "book", "title": "British Goblins: Welsh Folk-lore, Fairy Mythology, Legends, and Traditions", "authors": ["Wirt Sikes"], "publication": "Sampson Low, Marston, Searle, and Rivington", "date": "1880" },
+    { "id": "duchas-puca", "type": "archive", "title": "Schools' Collection (Dúchas)", "publication": "National Folklore Collection, UCD / Dúchas.ie", "url": "https://www.duchas.ie", "accessed": "2026-05-07" }
+  ]
 }
